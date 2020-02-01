@@ -1,8 +1,8 @@
-##How it all started
+## How it all started
 It's always very difficult to write the opening post of a blog, but I guess I should start by how the idea of creating this blog came up. It all started after I read a blog post on [Model View Culture](https://modelviewculture.com) called [C is Manly, Python is for “n00bs”: How False Stereotypes Turn Into Technical “Truths”](https://modelviewculture.com/pieces/c-is-manly-python-is-for-n00bs-how-false-stereotypes-turn-into-technical-truths). It tells us how myths and stereotypes about programming languages damage our area as developers. Beliefs of what are "toy languages" as opposed to "real languages" are often nothing more than social constructs. This stops significant technology of getting widespread, demotivates excellent developers and proliferates cargo-cult programming. 
 
 <center>
-![you only have to pick one, not really](http://lua.space/pub/post_img/pick_one.png)
+<img class="img-responsive"  alt="you only have to pick one, not really" src="http://lua.space/pub/post_img/pick_one.png"/>
 </center>
 
 <center>
@@ -19,27 +19,28 @@ As a Lua developer and advocate, this article resonated with me on a deep level.
 
 During my rant, a group of other Lua developers that had similar feelings started engaging on what we could do to contribute to Lua in terms of community and how we could show our appreciation for the language. That's when the idea for the blog came up. After a long list of tweets, a secret chat and some exchange of ideas, I started building this blog (in Lua, of course! ^_^). You may check the source [here](https://github.com/Etiene/lua.space). 
 
-##Yay, awesome, but what is this blog for?
+## Yay, awesome, but what is this blog for?
 Yes, that's an important question! Please notice that we don't have any affilitation with the official Lua team, but we intend to be a central hub for distributing news, technical posts and general discussions on everything related to Lua. Or, as the name says, a Lua space. Subscribe to our [RSS feed](http://feeds.feedburner.com/Luaspace) if you wish to be notified when there's new content.
 
-##Share your knowledge
+## Share your knowledge
 I am super excited! Are you super excited? Share your knowledge by contributing with Lua related posts! 
 
 All posts are written in markdown and are contained in our [git repository](https://github.com/Etiene/lua.space). Inside the `posts` directory you'll find one or multiple other directories which are the categories of our posts. This one, for example, is in [general](https://github.com/Etiene/lua.space/tree/master/posts/general).  
 
 Steps to writing a blog post:
 
-* Fork our [git repository](https://github.com/Etiene/lua.space)
-* Write your post using the [markdown syntax](https://help.github.com/articles/markdown-basics/)
-* Put it in one of the category directories inside `posts` or create a new one
-   *  The md file should be named in the same way you wish the url to be + `.md`
-   *  The convention is all lower case separating words by hyphens Ex.: blog-opening-and-contribution-guide.md
-* Edit the file `posts_meta.lua` adding an entry for your post and your author details
-   *  Just follow the pattern of the other entries already there :)
-* Commit and make a pull request
-* By making a pull request you certify that you are sharing your post and allowing it to be published here
-   *  We will never modify your original post unless for typo fixes or if you require to do so 
-   *  You'll still own all the copyrights of your post
+- Fork our [git repository](https://github.com/Etiene/lua.space)
+- Write your post using the [markdown syntax](https://help.github.com/articles/markdown-basics/)
+- Put it in one of the category directories inside `posts` or create a new one
+     -  The md file should be named in the same way you wish the url to be + `.md`
+     -  The convention is all lower case separating words by hyphens Ex.: blog-opening-and-contribution-guide.md
+- Edit the file `posts_meta.lua` adding an entry for your post and your author details
+     -  Just follow the pattern of the other entries already there :)
+- Commit and make a pull request
+- By making a pull request you certify that you are sharing your post and allowing it to be published here
+     -  We will never modify your original post unless for typo fixes or if you require to do so 
+     -  You'll still own all the copyrights of your post
+
 
 This blogs support syntax highlight provided by [highlight.js](http://highlightjs.org). Highlight.js auto-detects the programming language. Code blocks should be written in markdown using 4 spaces or a tab (+ the regular code indentation). Example:
 
@@ -47,7 +48,7 @@ This blogs support syntax highlight provided by [highlight.js](http://highlightj
 		print("You are awesome!")
 	end
 
-##Awesome people
+## Awesome people
 Special thanks go to [Pierre Chapuis](https://twitter.com/pchapuis) ([Lua Toolbox](https://lua-toolbox.com/)), for the domain name, [undef](https://twitter.com/undefdev) ([quadrant](http://quadrantgame.com/)) for the initial engagement and next contributions as a writer, [Bogdan Marinescu](https://twitter.com/bogdanm78) ([eLua](http://eluaproject.net)), [Mathäus Mendel](https://twitter.com/mathausmendel) ([OpenTibia](https://github.com/opentibia/ )) and [Elihu Garret](https://twitter.com/Mr_Auk) ([Moonlet](https://github.com/elihugarret/Moonlet)) for exchanging ideas and helping this come to reality, and every future writer of this blog!
 
 Cheers!

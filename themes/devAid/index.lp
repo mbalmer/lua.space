@@ -7,6 +7,7 @@
     <title><%=page.title%></title>
     <!-- Meta -->
     <meta charset="utf-8">
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="The Lua Community Blog">
@@ -75,17 +76,31 @@
                                   <?lua end ?>
                                 </ul>
                               </li>
+                            <li class="nav-item"><a href="/archive">Archive</a></li>
+                            <li class="nav-item"><a href="/jobs">Jobs</a></li>
                         </ul><!--//nav-->
                     </div><!--//navabr-collapse-->
                 </nav><!--//main-nav-->
             </div>
-            <div class="logo-subtitle center-block">
+            <div id="blog-subtitle" class="logo-subtitle center-block">
                 <a href="/">
                     The Lua Community Blog
                 </a>
             </div>  
         </div>
     </header><!--//header-->
+
+    <section id="news" class="news section">
+        <div class="container">
+            <div class="news-inner">
+                <strong>Important News:</strong> 26/10/2016 - <a href="http://lua.space/general/cfp-lua-devroom-fosdem-2017">Call for Presentations to Lua Devroom at FOSDEM 2017</a>
+                <br/>
+                <strong>Important News:</strong> 04/05/2016 - <a href="http://lua.space/general/community-news-2">Community news #2</a>
+	           <br/>            
+               <strong>Important News:</strong> 11/12/2015 - <a href="http://lua.space/general/blog-opening-and-contribution-guide">Blog opening and contribution guide</a>
+            </div>
+        </div>
+    </section>
     
 
     <!-- ******DOCS****** --> 
@@ -97,7 +112,7 @@
 
             <script>
             hljs.configure({
-              languages: ['lua','javascript']
+              languages: ['lua','javascript','html','bash','yaml']
             });
             hljs.initHighlightingOnLoad();
             </script>
